@@ -3,10 +3,10 @@ public class Alphabet
 {
 public static void main(String[] args)
 {
-char c = '*';
-if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-            System.out.println(c + " is an alphabet.");
+char a = '*';
+if( (a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
+            System.out.println(a + " is an alphabet.");
         else
-            System.out.println(c + " is not an alphabet.");
+            System.out.println(a + " is not an alphabet.");
     }
 }
